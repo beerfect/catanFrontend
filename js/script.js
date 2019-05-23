@@ -1,5 +1,6 @@
 // SETTINGS (START)
 
+// переменные для хексов
 let hex00 = document.querySelector('.dice__00');
 let hex01 = document.querySelector('.dice__01');
 let hex02 = document.querySelector('.dice__02');
@@ -20,8 +21,10 @@ let hex16 = document.querySelector('.dice__16');
 let hex17 = document.querySelector('.dice__17');
 let hex18 = document.querySelector('.dice__18');
 
+//массив на всякий случай
 hexArray = [hex00, hex01, hex02, hex03, hex04, hex05, hex06, hex07, hex08, hex09, hex10, hex11, hex12, hex13, hex14, hex15, hex16, hex17, hex18]
 
+// настройка костей
 let diceA = ['A', '5', '....'];
 let diceB = ['B', '2', '.'];
 let diceC = ['C', '6', '.....'];
@@ -41,6 +44,7 @@ let diceP = ['P', '6', '.....'];
 let diceQ = ['Q', '3', '..'];
 let diceR = ['R', '11', '..'];
 
+//настройка тайлов
 let forest = 'forestgreen'; // лес
 let pasture = 'chartreuse'; //пастбище
 let arable = 'darkgoldenrod'; // пашня
@@ -49,7 +53,7 @@ let mountains = 'grey'; //горы
 let desert = 'yellow'; //пустыня
 
 // SETTINGS (END)
-// ПОД КАПОТОМ (START)
+// ФУНКЦИИ ПОД КАПОТОМ (START)
 
 function setDiceOnHex(dice, hex) {
     hex.querySelector('.dice__content_letter').innerHTML = dice[0];
@@ -72,32 +76,11 @@ function createTileOnHex(tile, hex) {
     let hexNumber = hex.classList[1].slice(6);
     document.querySelector(`.hex__${hexNumber}`).style.fill = tile;
 }
-// ПОД КАПОТОМ (END)
+
+// ФУНКЦИИ ПОД КАПОТОМ (END)
 // ИНТЕРФЕЙС (START)
 
-// setDiceOnHex(diceA,hex00);
-
-setDiceOnHex(diceA, hex00);
-setDiceOnHex(diceB, hex01);
-setDiceOnHex(diceC, hex02);
-setDiceOnHex(diceD, hex03);
-setDiceOnHex(diceE, hex04);
-setDiceOnHex(diceF, hex05);
-setDiceOnHex(diceG, hex06);
-setDiceOnHex(diceH, hex07);
-setDiceOnHex(diceI, hex08);
-setDiceOnHex(diceJ, hex10);
-setDiceOnHex(diceK, hex11);
-setDiceOnHex(diceL, hex12);
-setDiceOnHex(diceM, hex13);
-setDiceOnHex(diceN, hex14);
-setDiceOnHex(diceO, hex15);
-setDiceOnHex(diceP, hex16);
-setDiceOnHex(diceQ, hex17);
-setDiceOnHex(diceR, hex18);
-
-for (let hex of hexArray){
-    createTileOnHex(forest,hex);
-}
+createTileOnHex(forest,hex00);  // создать тайл ЛЕС на НУЛЕВОМ ХЕКСЕ
+setDiceOnHex(diceA, hex00);     // установить кость А на НУЛЕВОЙ ХЕКС
 
 // ИНТЕРФЕЙС (END)

@@ -6,7 +6,7 @@ browser-sync start --server --files "*.html, css/*.css, js/*.js"
 
 <head>
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>Catan frontend</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/script.js" async></script>
 
@@ -16,7 +16,7 @@ browser-sync start --server --files "*.html, css/*.css, js/*.js"
 
     <div class="playField">
 
-        <!-- itworks -->
+        <!-- SVG ХЕКСОВ (START) -->
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid meet" viewBox="0 0 800 800" width="800" height="800">
             <defs>
@@ -133,8 +133,8 @@ browser-sync start --server --files "*.html, css/*.css, js/*.js"
                 </g>
             </g>
         </svg>  
-
-
+        <!-- SVG ХЕКСОВ (END) -->
+        <!-- ГРИД ДЛЯ КОСТЕЙ (START) -->
         <div class="diceGrid">
             <div class="dice dice__00 dice__A">
                 <div class="dice__content">
@@ -270,13 +270,9 @@ browser-sync start --server --files "*.html, css/*.css, js/*.js"
                 </div>
             </div>
         </div>
-
-        <div class="towerGrid"></div>
+        <!-- ГРИД ДЛЯ КОСТЕЙ (END) -->
 
     </div>
-
-
-
 </body>
 
 
