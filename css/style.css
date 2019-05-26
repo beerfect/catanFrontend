@@ -101,8 +101,8 @@
 .cityGrid__cell_00{grid-column: 4/6;}
 .cityGrid__cell_01{grid-column: 6/8;}
 .cityGrid__cell_02{grid-column: 8/10;}
-.cityGrid__cell_04{grid-column: 3/5;}
-.cityGrid__cell_03{grid-column: 5/7;}
+.cityGrid__cell_03{grid-column: 3/5;}
+.cityGrid__cell_04{grid-column: 5/7;}
 .cityGrid__cell_05{grid-column: 7/9;}
 .cityGrid__cell_06{grid-column: 9/11;}
 
