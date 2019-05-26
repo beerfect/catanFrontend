@@ -8,7 +8,9 @@ browser-sync start --server --files "*.html, css/*.css, js/*.js"
     <meta charset="utf-8">
     <title>Catan frontend</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/script.js" async></script>
+    <script src="js/settings.js" async></script>
+    <script src="js/script.js"></script>
+    <script src="js/interface.js" async></script>
 
 </head>
 
@@ -17,6 +19,7 @@ browser-sync start --server --files "*.html, css/*.css, js/*.js"
     <div class="playField">
 
         <!-- SVG ХЕКСОВ (START) -->
+
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid meet" viewBox="0 0 800 800" width="800" height="800">
             <defs>
@@ -133,8 +136,10 @@ browser-sync start --server --files "*.html, css/*.css, js/*.js"
                 </g>
             </g>
         </svg>  
+
         <!-- SVG ХЕКСОВ (END) -->
         <!-- ГРИД ДЛЯ КОСТЕЙ (START) -->
+
         <div class="diceGrid">
             <div class="dice dice__00 dice__A">
                 <div class="dice__content">
@@ -269,8 +274,74 @@ browser-sync start --server --files "*.html, css/*.css, js/*.js"
                     <div class="dice__content_dots"></div>
                 </div>
             </div>
-        </div>
+        </div> 
+        
         <!-- ГРИД ДЛЯ КОСТЕЙ (END) -->
+        <!-- ГРИД ДЛЯ ГОРОДОВ (START) -->
+        
+        <div class="cityGrid">
+            <div class="cityGrid__cell cityGrid__cell_00"></div>
+            <div class="cityGrid__cell cityGrid__cell_01"></div>
+            <div class="cityGrid__cell cityGrid__cell_02"></div>
+            <div class="cityGrid__cell cityGrid__cell_04"></div>
+            <div class="cityGrid__cell cityGrid__cell_03"></div>
+            <div class="cityGrid__cell cityGrid__cell_05"></div>
+            <div class="cityGrid__cell cityGrid__cell_06"></div>
+            <div class="cityGrid__emtyRow"></div>
+            <div class="cityGrid__cell cityGrid__cell_07"></div>
+            <div class="cityGrid__cell cityGrid__cell_08"></div>
+            <div class="cityGrid__cell cityGrid__cell_09"></div>
+            <div class="cityGrid__cell cityGrid__cell_10"></div>
+            <div class="cityGrid__cell cityGrid__cell_11"></div>
+            <div class="cityGrid__cell cityGrid__cell_12"></div>
+            <div class="cityGrid__cell cityGrid__cell_13"></div>
+            <div class="cityGrid__cell cityGrid__cell_14"></div>
+            <div class="cityGrid__cell cityGrid__cell_15"></div>
+            <div class="cityGrid__emtyRow"></div>
+            <div class="cityGrid__cell cityGrid__cell_16"></div>
+            <div class="cityGrid__cell cityGrid__cell_17"></div>
+            <div class="cityGrid__cell cityGrid__cell_18"></div>
+            <div class="cityGrid__cell cityGrid__cell_19"></div>
+            <div class="cityGrid__cell cityGrid__cell_20"></div>
+            <div class="cityGrid__cell cityGrid__cell_21"></div>
+            <div class="cityGrid__cell cityGrid__cell_22"></div>
+            <div class="cityGrid__cell cityGrid__cell_23"></div>
+            <div class="cityGrid__cell cityGrid__cell_24"></div>
+            <div class="cityGrid__cell cityGrid__cell_25"></div>
+            <div class="cityGrid__cell cityGrid__cell_26"></div>
+            <div class="cityGrid__emtyRow"></div>
+            <div class="cityGrid__cell cityGrid__cell_27"></div>
+            <div class="cityGrid__cell cityGrid__cell_28"></div>
+            <div class="cityGrid__cell cityGrid__cell_29"></div>
+            <div class="cityGrid__cell cityGrid__cell_30"></div>
+            <div class="cityGrid__cell cityGrid__cell_31"></div>
+            <div class="cityGrid__cell cityGrid__cell_32"></div>
+            <div class="cityGrid__cell cityGrid__cell_33"></div>
+            <div class="cityGrid__cell cityGrid__cell_34"></div>
+            <div class="cityGrid__cell cityGrid__cell_35"></div>
+            <div class="cityGrid__cell cityGrid__cell_36"></div>
+            <div class="cityGrid__cell cityGrid__cell_37"></div>
+            <div class="cityGrid__emtyRow"></div>
+            <div class="cityGrid__cell cityGrid__cell_38"></div>
+            <div class="cityGrid__cell cityGrid__cell_39"></div>
+            <div class="cityGrid__cell cityGrid__cell_40"></div>
+            <div class="cityGrid__cell cityGrid__cell_41"></div>
+            <div class="cityGrid__cell cityGrid__cell_42"></div>
+            <div class="cityGrid__cell cityGrid__cell_43"></div>
+            <div class="cityGrid__cell cityGrid__cell_44"></div>
+            <div class="cityGrid__cell cityGrid__cell_45"></div>
+            <div class="cityGrid__cell cityGrid__cell_46"></div>
+            <div class="cityGrid__emtyRow"></div>
+            <div class="cityGrid__cell cityGrid__cell_47"></div>
+            <div class="cityGrid__cell cityGrid__cell_48"></div>
+            <div class="cityGrid__cell cityGrid__cell_49"></div>
+            <div class="cityGrid__cell cityGrid__cell_50"></div>
+            <div class="cityGrid__cell cityGrid__cell_51"></div>
+            <div class="cityGrid__cell cityGrid__cell_52"></div>
+            <div class="cityGrid__cell cityGrid__cell_53"></div>
+        </div>
+
+        <!-- ГРИД ДЛЯ ГОРОДОВ (END) -->
 
     </div>
 </body>
