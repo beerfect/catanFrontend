@@ -10,8 +10,7 @@ clearHexFormDice(hex00);                      // очистить хекс от 
 clearHexFormTile(hex00);                      // очистить хекс от тайла
 clearNode(node00);                            //очистить узел от поселения/города
 
-ИНТЕРФЕЙС (END)
-
+// ИНТЕРФЕЙС (END)
 // TESTS (START) 
 
 // createTileOnHex(forest,hex00); 
