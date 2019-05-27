@@ -184,3 +184,93 @@
 }
 
 /* DICE MARKUP (END) */
+/* ROAD MARKUP (START) */
+
+.roadGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px 77px 40px 77px 40px 77px 40px 77px 40px 77px 40px;
+    position: absolute;
+    top: 97px;
+    left: 63px;
+    width: 674px;
+}
+
+.roadGrid__cell_00{grid-column: 3/4;}
+.roadGrid__cell_01{grid-column: 4/5;}
+.roadGrid__cell_02{grid-column: 5/6;}
+.roadGrid__cell_03{grid-column: 6/7;}
+.roadGrid__cell_04{grid-column: 7/8;}
+.roadGrid__cell_05{grid-column: 8/9;}
+.roadGrid__cell_06{grid-column: 3/4;}
+.roadGrid__cell_07{grid-column: 5/6;}
+.roadGrid__cell_08{grid-column: 7/8;}
+.roadGrid__cell_09{grid-column: 9/10;}
+.roadGrid__cell_10{grid-column: 2/3;}
+.roadGrid__cell_11{grid-column: 3/4;}
+.roadGrid__cell_12{grid-column: 4/5;}
+.roadGrid__cell_13{grid-column: 5/6;}
+.roadGrid__cell_14{grid-column: 6/7;}
+.roadGrid__cell_15{grid-column: 7/8;}
+.roadGrid__cell_16{grid-column: 8/9;}
+.roadGrid__cell_17{grid-column: 9/10;}
+.roadGrid__cell_18{grid-column: 2/3;}
+.roadGrid__cell_19{grid-column: 4/5;}
+.roadGrid__cell_20{grid-column: 6/7;}
+.roadGrid__cell_21{grid-column: 8/9;}
+.roadGrid__cell_22{grid-column: 10/11;}
+.roadGrid__cell_23{grid-column: 1/2;}
+.roadGrid__cell_24{grid-column: 2/3;}
+.roadGrid__cell_25{grid-column: 3/4;}
+.roadGrid__cell_26{grid-column: 4/5;}
+.roadGrid__cell_27{grid-column: 5/6;}
+.roadGrid__cell_28{grid-column: 6/7;}
+.roadGrid__cell_29{grid-column: 7/8;}
+.roadGrid__cell_30{grid-column: 8/9;}
+.roadGrid__cell_31{grid-column: 9/10;}
+.roadGrid__cell_32{grid-column: 10/11;}
+.roadGrid__cell_33{grid-column: 1/2;}
+.roadGrid__cell_34{grid-column: 3/4;}
+.roadGrid__cell_35{grid-column: 5/6;}
+.roadGrid__cell_36{grid-column: 7/8;}
+.roadGrid__cell_37{grid-column: 9/10;}
+.roadGrid__cell_38{transform: translateX(93%);}
+.roadGrid__cell_39{grid-column: 1/2;}
+.roadGrid__cell_40{grid-column: 2/3;}
+.roadGrid__cell_41{grid-column: 3/4;}
+.roadGrid__cell_42{grid-column: 4/5;}
+.roadGrid__cell_43{grid-column: 5/6;}
+.roadGrid__cell_44{grid-column: 6/7;}
+.roadGrid__cell_45{grid-column: 7/8;}
+.roadGrid__cell_46{grid-column: 8/9;}
+.roadGrid__cell_47{grid-column: 9/10;}
+.roadGrid__cell_48{grid-column: 10/11;}
+.roadGrid__cell_49{grid-column: 2/3;}
+.roadGrid__cell_50{grid-column: 4/5;}
+.roadGrid__cell_51{grid-column: 6/7;}
+.roadGrid__cell_52{grid-column: 8/9;}
+.roadGrid__cell_53{grid-column: 10/11;}
+.roadGrid__cell_54{grid-column: 2/3;}
+.roadGrid__cell_55{grid-column: 3/4;}
+.roadGrid__cell_56{grid-column: 4/5;}
+.roadGrid__cell_57{grid-column: 5/6;}
+.roadGrid__cell_58{grid-column: 6/7;}
+.roadGrid__cell_59{grid-column: 7/8;}
+.roadGrid__cell_60{grid-column: 8/9;}
+.roadGrid__cell_61{grid-column: 9/10;}
+.roadGrid__cell_62{grid-column: 3/4;}
+.roadGrid__cell_63{grid-column: 5/6;}
+.roadGrid__cell_64{grid-column: 7/8;}
+.roadGrid__cell_65{grid-column: 9/10;}
+.roadGrid__cell_66{grid-column: 3/4;}
+.roadGrid__cell_67{grid-column: 4/5;}
+.roadGrid__cell_68{grid-column: 5/6;}
+.roadGrid__cell_69{grid-column: 6/7;}
+.roadGrid__cell_70{grid-column: 7/8;}
+.roadGrid__cell_71{grid-column: 8/9;}
+
+.roadGrid__cell_verticalDirection:not(.roadGrid__cell_38){    
+    transform: translateX(-4px);
+}
+
+/* ROAD MARKUP (END) */
